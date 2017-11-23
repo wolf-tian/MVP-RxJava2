@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:gravity="center"
+              android:background="@color/white">
+    <RelativeLayout
+        android:id="@+id/home_page_relat"
+        style="@style/FootWH">
+        <ImageView
+            android:id="@+id/home_page_img"
+            style="@style/FootImg"
+            android:src="@drawable/bottom_home_bar_bg"/>
+        <TextView
+            style="@style/FootTextView"
+            android:id="@+id/home_page_text"
+            android:layout_below="@id/home_page_img"
+            android:text="@string/home_page"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/mailList_relat"
+        style="@style/FootWH">
+        <ImageView
+            android:id="@+id/mailList_img"
+            style="@style/FootImg"
+            android:src="@drawable/bottom_mail_bar_bg" />
+        <TextView
+            android:id="@+id/mailList_text"
+            style="@style/FootTextView"
+            android:text="@string/mailList"
+            android:layout_below="@id/mailList_img" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/tool_relat"
+        style="@style/FootWH">
+        <ImageView
+            android:id="@+id/tool_img"
+            style="@style/FootImg"
+            android:src="@drawable/bottom_tool_bar_bg" />
+        <TextView
+            android:id="@+id/tool_text"
+            style="@style/FootTextView"
+            android:text="@string/tool"
+            android:layout_below="@id/tool_img" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/mine_relat"
+        style="@style/FootWH">
+        <ImageView
+            android:id="@+id/mine_img"
+            style="@style/FootImg"
+            android:src="@drawable/bottom_mine_bar_bg" />
+        <TextView
+            android:id="@+id/mine_text"
+            style="@style/FootTextView"
+            android:text="@string/mine"
+            android:layout_below="@id/mine_img"/>
+    </RelativeLayout>
+</LinearLayout>

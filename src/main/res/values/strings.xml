@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WolfBase</string>
+
+    <string name="home_page">首页</string>
+    <string name="cases">案例</string>
+    <string name="mailList">通讯录</string>
+    <string name="tool">工具</string>
+    <string name="mine">我</string>
+</resources>

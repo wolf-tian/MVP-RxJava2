@@ -1,0 +1,30 @@
+<resources>
+
+    <style name="FootWH">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:descendantFocusability">beforeDescendants</item>
+    </style>
+
+    <style name="FootTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/px10dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">@dimen/px24sp</item>
+        <item name="android:layout_marginBottom">@dimen/px16dp</item>
+        <item name="android:textColor">@drawable/bottom_bar_text_color</item>
+    </style>
+
+    <style name="FootImg">
+        <item name="android:layout_marginTop">@dimen/px16dp</item>
+        <item name="android:layout_width">@dimen/px44dp</item>
+        <item name="android:layout_height">@dimen/px44dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+</resources>
